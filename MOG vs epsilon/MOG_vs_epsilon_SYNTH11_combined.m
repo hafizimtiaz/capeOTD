@@ -1,5 +1,5 @@
 clear all;clc;close all
-path = '../Database/';
+path = '../datasets/';
 load([path, 'MOG_data_K_5_D_10_N_100k.mat'])
 % w = w';
 nensemble = 10;

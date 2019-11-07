@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Database/';
-path = '';
+path = '../datasets/';
 nensemble = 10;
 epsilon = 1;
 delta = 0.01;

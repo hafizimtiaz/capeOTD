@@ -1,5 +1,5 @@
 clear; clc; close all
-path = '';
+path = '../datasets/';
 load([path,'STM_data_K_10_D_50_N_800k.mat'])
 w = w';
 nensemble = 10;
